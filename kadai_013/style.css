@@ -72,15 +72,13 @@ PC用のスタイル
 スマートフォン用のスタイル 
 =================*/
 @media screen and (max-width: 767px) {
-  body {
-    min-width: 375px;
-    margin: 0;
-  }
 
+  /* PCナビゲーションを非表示 */
   #nav-pc {
     display: none;
   }
 
+  /* ハンバーガーメニュー */
   #menu-sp {
     float: right;
     padding: 0;
@@ -109,8 +107,6 @@ PC用のスタイル
     position: absolute;
     top: 20px;
     right: 20px;
-    background-color: transparent;
-    border: none;
   }
 
   #logo-sp {
@@ -148,4 +144,10 @@ PC用のスタイル
     background-repeat: no-repeat;
     background-position: right top;
   }
+
+  body {
+    min-width: 375px;
+    margin: 0;
+  }
+
 }
